@@ -1,0 +1,49 @@
+/*
+ *  A Dockerised nginx + D3.js + Express.js + MongoDB learning project.
+ *  Copyright (C) 2019  Ryan Y.
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+.nav {
+  background: #333;
+}
+
+button {
+  background: #333 !important;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 16px;
+  font-size: 1.6em;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.active {
+  background: #00bfa5 !important;
+}
+
+form span {
+  color: #00bfa5 !important;
+}
+
+.x-axis path, .y-axis path, .x-axis line, .y-axis line {
+  stroke: #ccc;
+}
+
+.x-axis text, .y-axis text {
+  fill: #ccc;
+  font-size: 14px;
+}
